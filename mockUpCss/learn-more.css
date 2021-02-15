@@ -1,0 +1,196 @@
+/* Top Page Management */
+#header {
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    padding-bottom: 3vh;
+    border-bottom-style: double;
+}
+.centered-titles {
+    text-align: center;
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: -1vh;
+}
+h6 {
+    font-size:7px
+}
+
+/* Link Design */
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    color:darkmagenta;
+}
+
+/* Mid Page Management */
+body {
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+}
+
+/* Word-Wrap */
+p {
+    word-break: break-all;
+    text-align: justify;
+    font-size: small;
+}
+
+/* Border Management */
+.border-section {
+    border-bottom-style:inset;
+    padding-bottom: 4vh;
+}
+.double-border-section {
+    border-bottom-style:double;
+    padding-bottom: 8vh;
+}
+.higher-border {
+    border-top-style: inset;
+    padding-top: 3vh;
+}
+
+/* Mid Page Split */
+#main {
+    padding-bottom: 3vh;
+}
+#main-box {
+    display:flex;
+    padding-bottom: 6vh;
+}
+#main-left {
+    width: 20vw;
+}
+#main-right {
+    width: 40vw;
+    padding-left: 2vw;
+}
+
+/* Picture Design */
+#main-picture {
+    width: 40vw;
+    padding-bottom: 2vh;
+}
+.pic-float {
+    float: left;
+    width: 8vw;
+    padding-right: 0.75vw;
+}
+
+/* Button Design */
+button {
+    margin-top: 20px;
+    font-size:1vw ;
+    background-color: crimson;
+}
+
+button:hover {
+    filter: brightness(150%);
+}
+.medium-button {
+    width: 60%;
+    height: 3vh;
+    white-space: nowrap;
+    font-size:1vw ;
+}
+
+/* Footer Columns */
+#footer-box {
+    display: flex;
+    justify-content: center;
+}
+#footer {
+    background-color: darkgrey;
+    margin-right: -20vw;
+    margin-left: -20vw;
+    margin-bottom: -1vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+#footer-bottom-left {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer User Input Text */
+.input {
+    max-width: 12vw;
+    margin-bottom: 1vh;
+}
+.input:focus {
+    background-color:fuchsia;
+    outline: none;
+    border: .25vw solid red;
+}
+#message-box {
+    min-height: 10vh;
+}
+#message-box:focus {
+    background-color:fuchsia;
+    outline: none;
+    border: .25vw solid red;
+}
+#message-button {
+    width: 12vw;
+    height: 3vh;
+    white-space: nowrap;
+    font-size: 1vw ;
+    text-align:center;
+    position: relative;
+    bottom: 1vh;
+}
+#name-input {
+    margin-right:0.5vw;
+}
+
+/* Footer Right Column */
+#footer-right {
+    max-width: 29vw;
+    display: flex;
+    flex-direction:column;
+}
+
+/* Social Media List */
+ul {
+    list-style-type: none;
+    padding-left: 2vw;
+    white-space: nowrap;
+    font-size: 1vmax;
+}
+li {
+    padding: 0.5vmax
+}
+.pentagram {
+    width: 2vw;
+}
+
+/* List Placement and Design */
+span {
+    position:relative;
+    left: 1vw;
+    bottom: 0.5vw;
+}
+#orlando {
+    position:relative;
+    left: 3vw;
+    bottom: 0.5vw;
+}
+#villian-phone {
+    position:relative;
+    top: 1vh;
+}
+#villian-email {
+    position:relative;
+    top: 1.75vh;
+}
+#social-media {
+    display:flex
+}
+#contact-ipsum {
+    padding-left: 2.5vw;
+    word-break: break-all;
+    text-align: justify;
+}
